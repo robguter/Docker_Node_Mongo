@@ -1,8 +1,11 @@
 "# Docker_Node_Mongo"
 
 # Docker
-Docker es una plataforma de código abierto que permite automatizar la implementación, el escalado y la gestión de aplicaciones en contenedores. Los contenedores, a diferencia de las máquinas virtuales, son ligeros y portátiles, lo que permite que las aplicaciones se ejecuten de forma consistente en diferentes entornos. Docker facilita el empaquetado de aplicaciones con todas sus dependencias en un contenedor, lo que asegura que la aplicación se ejecute de la misma manera independientemente de dónde se despliegue.
-Docker es una herramienta que:
+Docker es una plataforma de código abierto que permite automatizar la implementación, el escalado y la gestión de aplicaciones en contenedores.
+Los contenedores, a diferencia de las máquinas virtuales, son ligeros y portátiles, lo que permite que las aplicaciones se ejecuten de forma consistente en diferentes entornos.
+Docker facilita el empaquetado de aplicaciones con todas sus dependencias en un contenedor, lo que asegura que la aplicación se ejecute de la misma manera independientemente de dónde se despliegue.
+
+## Docker es una herramienta que:
 •	Empaqueta aplicaciones en contenedores:
   o	Los contenedores son unidades estandarizadas que incluyen todo lo necesario para ejecutar una aplicación, como código, bibliotecas y dependencias. 
 •	Facilita la implementación:
@@ -17,9 +20,9 @@ Docker es una herramienta que:
 ## Comandos.
 
 - ## Imágenes.
-o	docker pull “image”: permite descargar la imagen indicada alojada en el servidor de repositorios docker.hub.
-o	docker images: permite visualizar todas las imágenes descargadas.
-o	docker images rm “image”: Elimina la imagen indicada.
+- docker pull “image”: permite descargar la imagen indicada alojada en el servidor de repositorios docker.hub.
+- docker images: permite visualizar todas las imágenes descargadas.
+- docker images rm “image”: Elimina la imagen indicada.
 
 <br>
 - ### Contenedores.
