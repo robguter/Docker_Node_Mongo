@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  miappl:
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongo_db
+  mongo_db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=Robguter
+      - MONGO_INITDB_ROOT_PASSWORD=150269
+    volumes:
+      - mongo-data:/data/db
+      # mysql -> /var/lib/mysql
+      # postgres -> /var/lib/postgresql/data
+
+volumes:
+  mongo-data:
