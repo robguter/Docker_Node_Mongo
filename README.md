@@ -125,7 +125,7 @@ Permite crear contenedores con todas las configuraciones necesarias mediante un 
 ```
 version: "X.X" <-- Version del grupo de contenedores.
   services:<-- Servicios.
-    chanchito: <-- Nombre de contenedor.
+    MIAPPL: <-- Nombre de contenedor.
       build: . <-- Ejecuta el conjunto de instrucciones indicadas en el archivo Dockerfile.
       ports: <-- Puertos mediante los cuales se podra acceder al contenedor.
         - "XXXX:XXXX" <-- El puerto de la izquierda es el de la PC afitrion (donde está corriendo Docker).
